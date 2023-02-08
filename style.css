@@ -231,3 +231,20 @@ h2{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.prof-head{
+    display: flex;
+    /* margin: auto; */
+    
+}
+.prof1{
+    display: flex;
+}
+
+
+
+
+.sec{
+    display: flex;
+    padding: 50px;
+    /* margin: auto; */
+}
