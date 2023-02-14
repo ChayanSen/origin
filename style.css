@@ -94,6 +94,9 @@ h6{
     color: #FFFFFF;
     padding-bottom: 25px;
 }
+h4{
+    text-align: center;
+}
 h5{
     width: 118px;
     font-size: 16px;
@@ -108,7 +111,7 @@ p{
     font-weight: 500;
     width: 450px;
     color: #FFFFFF;
-    padding-top: 25px;
+    /* padding-top: 25px; */
 }
 .button2{
     width: 292px;
@@ -162,7 +165,7 @@ h3{
     font-size: 14px;
     line-height: 40px;
     font-weight: 700;
-    text-align: center;
+    /* text-align: center; */
 }
 h2{
     font-size: 36px;
@@ -170,12 +173,16 @@ h2{
     font-weight: 700;
     text-align: center;
 }
+h4{
+    font-size: 16px;
+}
 .second-sec{
+    
     padding-top: 50px;
     text-align: center;
     justify-content: center;
-    /* align-items: center;
-    margin: auto; */
+    align-items: center;
+    margin: auto;
 }
 .second-sec p{
     color: black;
@@ -231,20 +238,86 @@ h2{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.prof-head{
-    display: flex;
-    /* margin: auto; */
-    
-}
+
 .prof1{
     display: flex;
+    align-items: center;
+    /* gap: 15px; */
 }
 
-
-
+.prof-head{
+    margin-top: 10px;
+    padding: 20px;
+}
+.prof-head p{
+    padding: none;
+    color: #25A0FF;
+}
 
 .sec{
     display: flex;
     padding: 50px;
     /* margin: auto; */
+}
+.first:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 47px rgba(38, 78, 118, 0.1);
+
+}
+.first{
+    width: 300px;
+    margin: 10px;
+    padding: 10px 10px;
+    text-align: left;
+    /* margin-top: 20px; */
+}
+.first p,h3{
+    text-align: left;
+}
+.prof1 img{
+    height: 55px;
+    width: 55px;
+}
+.eight-img img{
+    width: 743pxpx;
+    height: 820px;
+}
+.eighth-sec{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.eight-content h3,p{
+    text-align: left;
+}
+
+.eight-content p{
+    color: #02073E;
+    width: 454px;
+    font-size: 18px;
+    line-height: 42px;
+    margin-bottom: 30px;
+}
+.eight-content a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #1F3E76;
+    width: 75px;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: -0.16px;
+    padding: 10px 31px;
+    border: 2px;
+    border-radius: 50px;
+    
+}
+.eight-content h2{
+    width: 450px;
+    font-size: 48px;
+    line-height: 55px;
+    color: #0F2137;
+    text-align: left;
+    margin: 15px 15px 15px 0;
 }
